@@ -5,7 +5,7 @@ const regd_users = express.Router();
 
 let users = [];
 
-const secretKey = "your_secret_key";\
+const secretKey = "secret_key";
 
 // Utility function to check if a username is valid
 const isValid = (username) => {
